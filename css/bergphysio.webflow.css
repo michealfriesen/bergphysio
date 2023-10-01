@@ -1127,6 +1127,8 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 6px;
+  flex: 0 auto;
+  align-self: center;
   padding: 20px 35px;
   font-size: 18px;
   transition: background-color .25s;
@@ -3380,6 +3382,7 @@ li {
 
   .text-block-85, .benefits-paragraph, .text-block-86, .text-block-87, .text-block-88 {
     color: #546285;
+    line-height: 1.5;
   }
 }
 
