@@ -1,5 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Mon Jan 01 2024 19:23:03 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  --><!--  Last Published: Sun May 12 2024 06:51:30 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="64e985af2bb40124e1e56536" data-wf-site="64e985af2bb40124e1e564f6">
 <head>
   <meta charset="utf-8">
@@ -52,10 +51,10 @@ body{
     <div class="container-order">
       <div class="w-commerce-commercelayoutmain">
         <div data-node-type="commerce-cart-quick-checkout-actions">
-          <a data-node-type="commerce-cart-apple-pay-button" role="button" aria-haspopup="dialog" aria-label="Apple Pay" style="background-image:-webkit-named-image(apple-pay-logo-white);background-size:100% 50%;background-position:50% 50%;background-repeat:no-repeat" class="w-commerce-commercecartapplepaybutton apple-pay-button" tabindex="0">
+          <a role="button" aria-haspopup="dialog" aria-label="Apple Pay" data-node-type="commerce-cart-apple-pay-button" style="background-image:-webkit-named-image(apple-pay-logo-white);background-size:100% 50%;background-position:50% 50%;background-repeat:no-repeat" class="w-commerce-commercecartapplepaybutton apple-pay-button" tabindex="0">
             <div></div>
           </a>
-          <a data-node-type="commerce-cart-quick-checkout-button" role="button" tabindex="0" aria-haspopup="dialog" style="display:none" class="w-commerce-commercecartquickcheckoutbutton"><svg class="w-commerce-commercequickcheckoutgoogleicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewbox="0 0 16 16">
+          <a role="button" tabindex="0" aria-haspopup="dialog" data-node-type="commerce-cart-quick-checkout-button" style="display:none" class="w-commerce-commercecartquickcheckoutbutton"><svg class="w-commerce-commercequickcheckoutgoogleicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewbox="0 0 16 16">
               <defs>
                 <polygon id="google-mark-a" points="0 .329 3.494 .329 3.494 7.649 0 7.649"></polygon>
                 <polygon id="google-mark-c" points=".894 0 13.169 0 13.169 6.443 .894 6.443"></polygon>
@@ -99,18 +98,18 @@ body{
             <h5>Customer Info</h5>
             <div class="required">* Required</div>
           </div>
-          <fieldset class="w-commerce-commercecheckoutblockcontent"><label for="" class="w-commerce-commercecheckoutlabel field-label">Email *</label><input type="text" class="w-commerce-commercecheckoutemailinput input-field" name="email" required=""></fieldset>
+          <fieldset class="w-commerce-commercecheckoutblockcontent"><label for="" class="w-commerce-commercecheckoutlabel field-label">Email *</label><input class="w-commerce-commercecheckoutemailinput input-field" type="text" name="email" required=""></fieldset>
         </form>
         <form data-node-type="commerce-checkout-shipping-address-wrapper" class="w-commerce-commercecheckoutshippingaddresswrapper">
           <div class="w-commerce-commercecheckoutblockheader block-header">
             <h5>Order Address</h5>
             <div class="required">* Required</div>
           </div>
-          <fieldset class="w-commerce-commercecheckoutblockcontent"><label for="" class="w-commerce-commercecheckoutlabel field-label">Full Name *</label><input type="text" class="w-commerce-commercecheckoutshippingfullname input-field" name="name" required=""><label for="" class="w-commerce-commercecheckoutlabel field-label">Street Address *</label><input type="text" class="w-commerce-commercecheckoutshippingstreetaddress input-field" name="address_line1" required=""><input type="text" aria-label="" class="w-commerce-commercecheckoutshippingstreetaddressoptional input-field" name="address_line2">
+          <fieldset class="w-commerce-commercecheckoutblockcontent"><label for="" class="w-commerce-commercecheckoutlabel field-label">Full Name *</label><input class="w-commerce-commercecheckoutshippingfullname input-field" name="name" type="text" required=""><label for="" class="w-commerce-commercecheckoutlabel field-label">Street Address *</label><input class="w-commerce-commercecheckoutshippingstreetaddress input-field" name="address_line1" type="text" required=""><input aria-label="" class="w-commerce-commercecheckoutshippingstreetaddressoptional input-field" name="address_line2" type="text">
             <div class="w-commerce-commercecheckoutrow">
-              <div class="w-commerce-commercecheckoutcolumn"><label for="" class="w-commerce-commercecheckoutlabel field-label">City *</label><input type="text" class="w-commerce-commercecheckoutshippingcity input-field" name="address_city" required=""></div>
-              <div class="w-commerce-commercecheckoutcolumn"><label for="" class="w-commerce-commercecheckoutlabel field-label">State/Province</label><input type="text" class="w-commerce-commercecheckoutshippingstateprovince input-field" name="address_state"></div>
-              <div class="w-commerce-commercecheckoutcolumn"><label for="" class="w-commerce-commercecheckoutlabel field-label">Zip/Postal Code *</label><input type="text" data-node-type="commerce-checkout-shipping-zip-field" class="w-commerce-commercecheckoutshippingzippostalcode input-field" name="address_zip" required=""></div>
+              <div class="w-commerce-commercecheckoutcolumn"><label for="" class="w-commerce-commercecheckoutlabel field-label">City *</label><input class="w-commerce-commercecheckoutshippingcity input-field" name="address_city" type="text" required=""></div>
+              <div class="w-commerce-commercecheckoutcolumn"><label for="" class="w-commerce-commercecheckoutlabel field-label">State/Province</label><input class="w-commerce-commercecheckoutshippingstateprovince input-field" name="address_state" type="text"></div>
+              <div class="w-commerce-commercecheckoutcolumn"><label for="" class="w-commerce-commercecheckoutlabel field-label">Zip/Postal Code *</label><input data-node-type="commerce-checkout-shipping-zip-field" class="w-commerce-commercecheckoutshippingzippostalcode input-field" name="address_zip" type="text" required=""></div>
             </div><label for="" class="w-commerce-commercecheckoutlabel field-label">Country *</label><select class="w-commerce-commercecheckoutshippingcountryselector dropdown" name="address_country">
               <option value="AF">Afghanistan</option>
               <option value="AX">Aland Islands</option>
@@ -367,8 +366,8 @@ body{
             <h5>Shipping Method</h5>
           </div>
           <fieldset>
-            <script type="text/x-wf-template" id="wf-template-5e83ed841366eba0879ed4d0000000000042">%3Clabel%20class%3D%22w-commerce-commercecheckoutshippingmethoditem%22%3E%3Cinput%20type%3D%22radio%22%20required%3D%22%22%20name%3D%22shipping-method-choice%22%2F%3E%3Cdiv%20class%3D%22w-commerce-commercecheckoutshippingmethoddescriptionblock%22%3E%3Cdiv%20class%3D%22w-commerce-commerceboldtextblock%20field-label%22%3E%3C%2Fdiv%3E%3Cdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%3E%3C%2Fdiv%3E%3C%2Flabel%3E</script>
-            <div data-node-type="commerce-checkout-shipping-methods-list" class="w-commerce-commercecheckoutshippingmethodslist" data-wf-collection="database.commerceOrder.availableShippingMethods" data-wf-template-id="wf-template-5e83ed841366eba0879ed4d0000000000042"><label class="w-commerce-commercecheckoutshippingmethoditem"><input type="radio" required="" name="shipping-method-choice">
+            <script type="text/x-wf-template" id="wf-template-5e83ed841366eba0879ed4d0000000000042">%3Clabel%20class%3D%22w-commerce-commercecheckoutshippingmethoditem%22%3E%3Cinput%20required%3D%22%22%20type%3D%22radio%22%20name%3D%22shipping-method-choice%22%2F%3E%3Cdiv%20class%3D%22w-commerce-commercecheckoutshippingmethoddescriptionblock%22%3E%3Cdiv%20class%3D%22w-commerce-commerceboldtextblock%20field-label%22%3E%3C%2Fdiv%3E%3Cdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%3E%3C%2Fdiv%3E%3C%2Flabel%3E</script>
+            <div data-node-type="commerce-checkout-shipping-methods-list" class="w-commerce-commercecheckoutshippingmethodslist" data-wf-collection="database.commerceOrder.availableShippingMethods" data-wf-template-id="wf-template-5e83ed841366eba0879ed4d0000000000042"><label class="w-commerce-commercecheckoutshippingmethoditem"><input required="" type="radio" name="shipping-method-choice">
                 <div class="w-commerce-commercecheckoutshippingmethoddescriptionblock">
                   <div class="w-commerce-commerceboldtextblock field-label"></div>
                   <div></div>
@@ -404,7 +403,7 @@ body{
                 </div>
               </div>
             </div>
-            <div class="w-commerce-commercecheckoutbillingaddresstogglewrapper"><input type="checkbox" id="billing-address-toggle" data-node-type="commerce-checkout-billing-address-toggle-checkbox" class="w-commerce-commercecheckoutbillingaddresstogglecheckbox" checked=""><label for="billing-address-toggle" class="w-commerce-commercecheckoutbillingaddresstogglelabel">Billing address same as shipping</label></div>
+            <div class="w-commerce-commercecheckoutbillingaddresstogglewrapper"><input id="billing-address-toggle" data-node-type="commerce-checkout-billing-address-toggle-checkbox" class="w-commerce-commercecheckoutbillingaddresstogglecheckbox" type="checkbox" checked=""><label for="billing-address-toggle" class="w-commerce-commercecheckoutbillingaddresstogglelabel">Billing address same as shipping</label></div>
           </fieldset>
         </div>
         <form data-node-type="commerce-checkout-billing-address-wrapper" style="display:none" class="w-commerce-commercecheckoutbillingaddresswrapper">
@@ -412,11 +411,11 @@ body{
             <h5>Billing Address</h5>
             <div class="required">* Required</div>
           </div>
-          <fieldset class="w-commerce-commercecheckoutblockcontent"><label for="" class="w-commerce-commercecheckoutlabel field-label">Full Name *</label><input type="text" class="w-commerce-commercecheckoutbillingfullname input-field" name="name" required=""><label for="" class="w-commerce-commercecheckoutlabel field-label">Street Address *</label><input type="text" class="w-commerce-commercecheckoutbillingstreetaddress input-field" name="address_line1" required=""><input type="text" aria-label="" class="w-commerce-commercecheckoutbillingstreetaddressoptional input-field" name="address_line2">
+          <fieldset class="w-commerce-commercecheckoutblockcontent"><label for="" class="w-commerce-commercecheckoutlabel field-label">Full Name *</label><input class="w-commerce-commercecheckoutbillingfullname input-field" name="name" type="text" required=""><label for="" class="w-commerce-commercecheckoutlabel field-label">Street Address *</label><input class="w-commerce-commercecheckoutbillingstreetaddress input-field" name="address_line1" required="" type="text"><input aria-label="" class="w-commerce-commercecheckoutbillingstreetaddressoptional input-field" name="address_line2" type="text">
             <div class="w-commerce-commercecheckoutrow">
-              <div class="w-commerce-commercecheckoutcolumn"><label for="" class="w-commerce-commercecheckoutlabel field-label">City *</label><input type="text" class="w-commerce-commercecheckoutbillingcity input-field" name="address_city" required=""></div>
-              <div class="w-commerce-commercecheckoutcolumn"><label for="" class="w-commerce-commercecheckoutlabel field-label">State/Province</label><input type="text" class="w-commerce-commercecheckoutbillingstateprovince input-field" name="address_state"></div>
-              <div class="w-commerce-commercecheckoutcolumn"><label for="" class="w-commerce-commercecheckoutlabel field-label">Zip/Postal Code *</label><input type="text" data-node-type="commerce-checkout-billing-zip-field" class="w-commerce-commercecheckoutbillingzippostalcode input-field" name="address_zip" required=""></div>
+              <div class="w-commerce-commercecheckoutcolumn"><label for="" class="w-commerce-commercecheckoutlabel field-label">City *</label><input class="w-commerce-commercecheckoutbillingcity input-field" name="address_city" type="text" required=""></div>
+              <div class="w-commerce-commercecheckoutcolumn"><label for="" class="w-commerce-commercecheckoutlabel field-label">State/Province</label><input class="w-commerce-commercecheckoutbillingstateprovince input-field" name="address_state" type="text"></div>
+              <div class="w-commerce-commercecheckoutcolumn"><label for="" class="w-commerce-commercecheckoutlabel field-label">Zip/Postal Code *</label><input data-node-type="commerce-checkout-billing-zip-field" class="w-commerce-commercecheckoutbillingzippostalcode input-field" name="address_zip" type="text" required=""></div>
             </div><label for="" class="w-commerce-commercecheckoutlabel field-label">Country *</label><select class="w-commerce-commercecheckoutbillingcountryselector dropdown" name="address_country">
               <option value="AF">Afghanistan</option>
               <option value="AX">Aland Islands</option>
@@ -652,7 +651,7 @@ body{
               <option value="UA">Ukraine</option>
               <option value="AE">United Arab Emirates</option>
               <option value="GB">United Kingdom</option>
-              <option selected="" value="US">United States</option>
+              <option value="US" selected="">United States</option>
               <option value="UM">United States Minor Outlying Islands</option>
               <option value="UY">Uruguay</option>
               <option value="UZ">Uzbekistan</option>
