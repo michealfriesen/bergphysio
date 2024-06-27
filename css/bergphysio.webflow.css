@@ -1575,6 +1575,7 @@ li {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 18px;
+  font-style: normal;
   line-height: 1.5;
   position: static;
 }
@@ -2555,6 +2556,15 @@ li {
   margin-left: auto;
   margin-right: auto;
   position: static;
+}
+
+.section-2 {
+  margin-bottom: 20px;
+}
+
+.heading-9 {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 991px) {
