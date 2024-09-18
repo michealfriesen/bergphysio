@@ -22,7 +22,6 @@
   color: #fff;
   cursor: pointer;
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #000;
   border-width: 0;
@@ -46,7 +45,6 @@
   color: #fff;
   cursor: pointer;
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #000;
   border-width: 0;
@@ -141,7 +139,6 @@
 
 .w-commerce-commercecheckoutemailinput {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -169,7 +166,6 @@
 
 .w-commerce-commercecheckoutshippingfullname {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -193,7 +189,6 @@
 
 .w-commerce-commercecheckoutshippingstreetaddress {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -217,7 +212,6 @@
 
 .w-commerce-commercecheckoutshippingstreetaddressoptional {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -253,7 +247,6 @@
 
 .w-commerce-commercecheckoutshippingcity {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -277,7 +270,6 @@
 
 .w-commerce-commercecheckoutshippingstateprovince {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -301,7 +293,6 @@
 
 .w-commerce-commercecheckoutshippingzippostalcode {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -325,7 +316,6 @@
 
 .w-commerce-commercecheckoutshippingcountryselector {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -390,7 +380,6 @@
 
 .w-commerce-commercecheckoutcardnumber {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   cursor: text;
   background-color: #fafafa;
@@ -415,7 +404,6 @@
 
 .w-commerce-commercecheckoutcardexpirationdate {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   cursor: text;
   background-color: #fafafa;
@@ -440,7 +428,6 @@
 
 .w-commerce-commercecheckoutcardsecuritycode {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   cursor: text;
   background-color: #fafafa;
@@ -484,7 +471,6 @@
 
 .w-commerce-commercecheckoutbillingfullname {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -508,7 +494,6 @@
 
 .w-commerce-commercecheckoutbillingstreetaddress {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -532,7 +517,6 @@
 
 .w-commerce-commercecheckoutbillingstreetaddressoptional {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -556,7 +540,6 @@
 
 .w-commerce-commercecheckoutbillingcity {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -580,7 +563,6 @@
 
 .w-commerce-commercecheckoutbillingstateprovince {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -604,7 +586,6 @@
 
 .w-commerce-commercecheckoutbillingzippostalcode {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -628,7 +609,6 @@
 
 .w-commerce-commercecheckoutbillingcountryselector {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -652,7 +632,6 @@
 
 .w-commerce-commercelayoutsidebar {
   flex: 0 0 320px;
-  position: -webkit-sticky;
   position: sticky;
   top: 20px;
 }
@@ -676,7 +655,6 @@
   color: #fff;
   cursor: pointer;
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   text-align: center;
   background-color: #3898ec;
@@ -702,7 +680,6 @@
 
 .w-commerce-commerceaddtocartquantityinput {
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -728,7 +705,6 @@
   color: #fff;
   cursor: pointer;
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none;
   background-color: #3898ec;
   border-width: 0;
@@ -1106,7 +1082,7 @@ li {
 .hero-image-wrap {
   opacity: 1;
   object-fit: fill;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   border-radius: 20px;
   flex-wrap: nowrap;
   justify-content: flex-end;
@@ -1231,7 +1207,7 @@ li {
 }
 
 .content-section {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   margin-top: 20px;
   padding: 40px 3% 120px;
   position: relative;
@@ -1341,16 +1317,13 @@ li {
   font-size: 13px;
   display: flex;
   position: absolute;
-  top: -6px;
-  bottom: auto;
-  left: auto;
-  right: -6px;
-  box-shadow: 7px 7px 25px rgba(126, 130, 143, .27);
+  inset: -6px -6px auto auto;
+  box-shadow: 7px 7px 25px #7e828f45;
 }
 
 .food-card {
   background-color: #fff;
-  border: 1px solid rgba(53, 184, 190, .15);
+  border: 1px solid #35b8be26;
   border-radius: 6px;
   align-items: center;
   min-height: 200px;
@@ -1360,7 +1333,7 @@ li {
 }
 
 .food-card:hover {
-  border-color: rgba(53, 184, 190, .5);
+  border-color: #35b8be80;
 }
 
 .food-image-square {
@@ -1427,7 +1400,7 @@ li {
 }
 
 .cta-section {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   padding: 3%;
 }
 
@@ -1508,8 +1481,8 @@ li {
 
 .tab-link-round {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid rgba(97, 114, 131, .2);
+  background-color: #0000;
+  border: 1px solid #61728333;
   border-radius: 6px;
   justify-content: center;
   align-items: center;
@@ -1528,7 +1501,7 @@ li {
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  border-color: rgba(97, 114, 131, 0);
+  border-color: #61728300;
   border-radius: 6px;
   margin-top: 0;
   margin-left: 10px;
@@ -1543,7 +1516,7 @@ li {
 
 .faq-question-bar {
   color: var(--space-cadet);
-  border-bottom: 1px solid rgba(0, 0, 0, .04);
+  border-bottom: 1px solid #0000000a;
   justify-content: space-between;
   align-items: center;
   padding-top: 40px;
@@ -1581,7 +1554,7 @@ li {
 }
 
 .footer-legal {
-  border-top: 1px solid rgba(126, 130, 143, .09);
+  border-top: 1px solid #7e828f17;
   justify-content: space-between;
   align-items: center;
   margin-top: 100px;
@@ -1612,7 +1585,7 @@ li {
 }
 
 .social-link {
-  border: 1px solid rgba(126, 130, 143, .3);
+  border: 1px solid #7e828f4d;
   border-radius: 100px;
   justify-content: center;
   align-items: center;
@@ -1624,7 +1597,7 @@ li {
 }
 
 .social-link:hover {
-  border-color: rgba(126, 130, 143, .86);
+  border-color: #7e828fdb;
 }
 
 .social-icon {
@@ -1703,7 +1676,6 @@ li {
 }
 
 .order-detail {
-  position: -webkit-sticky;
   position: sticky;
   top: 35px;
 }
@@ -1747,7 +1719,7 @@ li {
 }
 
 .content-section-bg {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   background-image: url('../images/BG-Shape-Content.svg');
   background-position: 50%;
   background-repeat: no-repeat;
@@ -1885,7 +1857,7 @@ li {
 }
 
 .plain-line {
-  background-color: rgba(53, 184, 190, .25);
+  background-color: #35b8be40;
   width: 100%;
   height: 1px;
   margin-top: 30px;
@@ -1910,7 +1882,7 @@ li {
   width: 100%;
   display: block;
   overflow: hidden;
-  box-shadow: 6px 6px 17px rgba(82, 76, 76, .06);
+  box-shadow: 6px 6px 17px #524c4c0f;
 }
 
 .colour-text {
@@ -1967,11 +1939,11 @@ li {
 }
 
 .highlight-default {
-  background-color: rgba(255, 171, 0, .23);
+  background-color: #ffab003b;
 }
 
 .block-detail {
-  border-bottom: 1px solid rgba(0, 0, 0, .11);
+  border-bottom: 1px solid #0000001c;
   align-items: center;
   padding-top: 15px;
   padding-bottom: 25px;
@@ -1999,7 +1971,7 @@ li {
 }
 
 .change-log-wrap {
-  border-bottom: 1px solid rgba(0, 0, 0, .08);
+  border-bottom: 1px solid #00000014;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -2056,10 +2028,7 @@ li {
   width: 100%;
   max-width: 500px;
   position: absolute;
-  top: auto;
-  bottom: auto;
-  left: auto;
-  right: auto;
+  inset: auto;
 }
 
 .price-text {
@@ -2077,7 +2046,7 @@ li {
 }
 
 .content-section-short {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   padding: 60px 3%;
   position: relative;
 }
@@ -2098,10 +2067,7 @@ li {
 
 .pattern {
   position: absolute;
-  top: -20%;
-  bottom: 0%;
-  left: -4%;
-  right: 0%;
+  inset: -20% 0% 0% -4%;
 }
 
 .pagination-button {
@@ -2148,7 +2114,7 @@ li {
 }
 
 .cta-full-image {
-  background-image: radial-gradient(circle, rgba(0, 0, 0, .67), rgba(25, 26, 27, .19)), url('../images/Group-Photo.jpg');
+  background-image: radial-gradient(circle, #000000ab, #191a1b30), url('../images/Group-Photo.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -2191,7 +2157,7 @@ li {
 }
 
 .notice-text {
-  color: rgba(255, 255, 255, .8);
+  color: #fffc;
 }
 
 .order-column {
@@ -2312,8 +2278,7 @@ li {
 
 .columns {
   flex-wrap: wrap;
-  align-content: flex-end;
-  justify-content: center;
+  place-content: flex-end center;
   align-items: center;
   margin-left: 5%;
   margin-right: 5%;
@@ -2579,7 +2544,7 @@ li {
 
   .navbar {
     z-index: 5;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
     width: 100%;
     display: flex;
   }
@@ -2589,7 +2554,7 @@ li {
   }
 
   .menu-button {
-    background-color: rgba(126, 130, 143, .1);
+    background-color: #7e828f1a;
     border-radius: 4px;
     justify-content: center;
     align-items: center;
@@ -2608,7 +2573,7 @@ li {
   .nav-menu {
     background-color: #fff;
     margin-right: 0;
-    box-shadow: 0 50px 80px -30px rgba(53, 52, 72, .2);
+    box-shadow: 0 50px 80px -30px #35344833;
   }
 
   .header {
@@ -2986,7 +2951,7 @@ li {
 
   .navbar {
     object-fit: fill;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: #fff0;
     flex-wrap: nowrap;
     align-content: flex-end;
     position: absolute;
@@ -3302,7 +3267,7 @@ li {
   }
 
   .image-4.mobile {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
     margin-top: 40px;
     margin-bottom: 40px;
     padding-top: 20px;
@@ -3450,8 +3415,7 @@ li {
 
 #w-node-_7cee2062-facd-d622-d4ce-a9d888af9d62-e1e56537 {
   grid-area: Area-4;
-  align-self: center;
-  justify-self: center;
+  place-self: center;
 }
 
 @media screen and (max-width: 991px) {
