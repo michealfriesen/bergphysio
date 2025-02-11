@@ -1851,6 +1851,11 @@ li {
   position: relative;
 }
 
+.header-section.moblie-header {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .product-grid {
   grid-column-gap: 44px;
   grid-template-rows: auto;
@@ -2049,6 +2054,11 @@ li {
   background-color: #0000;
   padding: 60px 3%;
   position: relative;
+}
+
+.content-section-short.mobile-section {
+  border-radius: 6px;
+  display: block;
 }
 
 .out-of-stock-state {
@@ -2530,6 +2540,70 @@ li {
 .heading-9 {
   text-align: center;
   margin-bottom: 40px;
+}
+
+.text-block-89 {
+  text-align: center;
+}
+
+.heading-10 {
+  font-size: 40px;
+}
+
+.image-11 {
+  float: right;
+  margin-top: 175px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.image-12 {
+  float: left;
+}
+
+.heading-11 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.button-3 {
+  clear: both;
+  color: var(--white);
+  text-align: center;
+  vertical-align: baseline;
+  background-color: #36b9bf;
+  border-radius: 12px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 15px;
+  font-size: 30px;
+  line-height: 40px;
+  display: block;
+}
+
+.tab-link-pre-pointe {
+  background-color: #0000;
+  border-radius: 6px;
+}
+
+.tab-link-pre-pointe.w--current {
+  text-align: center;
+  background-color: #0000;
+  border: 1px solid #61728333;
+  transition: opacity .2s;
+}
+
+.pointe_img {
+  float: right;
+  border-radius: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.paragraph-8 {
+  text-align: left;
 }
 
 @media screen and (max-width: 991px) {
@@ -3394,6 +3468,10 @@ li {
   .text-block-85, .benefits-paragraph, .text-block-86, .text-block-87, .text-block-88 {
     color: #546285;
     line-height: 1.5;
+  }
+
+  .heading-11 {
+    font-size: 40px;
   }
 }
 
